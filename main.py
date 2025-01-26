@@ -202,7 +202,7 @@ class KeywordQueryEventListener(EventListener):
                         description=url,
                         on_enter=OpenUrlAction(url)))
 
-        return RenderResultListAction(items)
+        return RenderResultListAction(items[:9])
 
     def without_projects(self, event: KeywordQueryEvent) -> RenderResultListAction:
         """Called when the user has not specified any projects.
@@ -226,7 +226,7 @@ class KeywordQueryEventListener(EventListener):
                     description=url,
                     on_enter=OpenUrlAction(url)))
 
-        return RenderResultListAction(items)
+        return RenderResultListAction(items[:9])
 
 
 if __name__ == "__main__":
