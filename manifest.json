@@ -1,0 +1,25 @@
+{
+  "required_api_version": "2",
+  "name": "Google Cloud Console launcher",
+  "description": "Quickly navigate to areas of the Google Cloud Console by project.",
+  "developer_name": "Chet Luther (@cluther)",
+  "icon": "images/cloud_shell.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Google Cloud Console",
+      "description": "Type a Google Cloud Console area or project name...",
+      "default_value": "gcloud"
+    },
+    {
+      "id": "projects",
+      "type": "input",
+      "name": "Google Cloud projects list",
+      "description": "Enter a comma-separated list of Google Cloud projects"
+    }
+  ]
+}
