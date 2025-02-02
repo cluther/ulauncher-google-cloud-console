@@ -119,13 +119,13 @@ AREAS = {
         "name": "Alerting",
         "description": "Alerting – Monitoring",
         "icon": "alert",
-        "url": "logs/query",
+        "url": "monitoring/alerting",
     },
     "monitoring incidents": {
         "name": "Incidents",
         "description": "Incidents – Monitoring",
         "icon": "alert",
-        "url": "logs/query",
+        "url": "monitoring/alerting/incidents",
     },
     "network dns zones": {
         "name": "DNS Zones",
