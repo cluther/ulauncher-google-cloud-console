@@ -1,0 +1,16 @@
+<svg data-icon-name="computeSectionIcon" viewBox="0 0 24 24" width="24" height="24" fill="#1967d2" fill-rule="evenodd">
+  <path d="M7 3h2v2H7zM3 7h2v2H3z" fill="#4785db"></path>
+  <path d="M19 7h2v2h-2z" fill="#75a4e4"></path>
+  <path d="M3 11h2v2H3z" fill="#4785db"></path>
+  <path d="M19 11h2v2h-2z" fill="#75a4e4"></path>
+  <path d="M3 15h2v2H3z" fill="#4785db"></path>
+  <path d="M19 15h2v2h-2zM7 19h2v2H7z" fill="#75a4e4"></path>
+  <path d="M11 3h2v2h-2z" fill="#4785db"></path>
+  <path d="M11 19h2v2h-2z" fill="#75a4e4"></path>
+  <path d="M15 3h2v2h-2z" fill="#4785db"></path>
+  <path d="M15 19h2v2h-2z" fill="#75a4e4"></path>
+  <path d="M5 19h14V5H5v14zm12-2H7V7h10v10z"></path>
+  <path d="M15 9H9v6l3-3z"></path>
+  <path d="M12 12l-3 3h6z" fill="#4785db"></path>
+  <path d="M15 15V9l-3 3z" fill="#75a4e4"></path>
+</svg>

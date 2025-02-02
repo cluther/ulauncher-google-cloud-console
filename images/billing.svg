@@ -1,0 +1,9 @@
+<svg fill="none" fill-rule="evenodd" height="100%" viewBox="0 0 24 24" width="100%" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+  <path d="M4.25 19C3.56 19 3 18.43 3 17.727V6.273C3 5.57 3.56 5 4.25 5h15.5c.69 0 1.25.57 1.25 1.273v11.454A1.26 1.26 0 0 1 19.75 19H4.25z" fill="#aecbfa"></path>
+  <path d="M12 19V5h7.75c.69 0 1.25.57 1.25 1.273v11.454A1.26 1.26 0 0 1 19.75 19H12z" fill="#669df6"></path>
+  <path d="M3 7h18v2H3z" fill="#669df6"></path>
+  <path d="M12 7h9v2h-9z" fill="#424242"></path>
+  <path d="M5 11h14v2H5z" fill="#ffffff"></path>
+  <path d="M5 15h3v2H5z" fill="#669df6"></path>
+  <path d="M14 15h1v1h-1zm3 0h1v1h-1z" fill="#ffffff"></path>
+</svg>

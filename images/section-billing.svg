@@ -1,0 +1,11 @@
+<svg data-icon-name="billingSectionIcon" viewBox="0 0 24 24" width="24" height="24" fill-rule="evenodd">
+  <path d="M3 7h9v2H3z" fill="#a3c2ed"></path>
+  <path d="M12 7h9v2h-9z" fill="#bad2f2"></path>
+  <path d="M5 11h14v2H5z" fill="#75a4e4"></path>
+  <path d="M4 5a1 1 0 00-1 1v1h9V5H4z" fill="#1967d2"></path>
+  <path d="M20 5h-8v2h9V6a1 1 0 00-1-1z" fill="#3076d6"></path>
+  <path d="M12 11V9H3v9a1 1 0 001 1l8-.004V13H5v-2h7zm-4 4v2H5v-2h3z" fill="#1967d2"></path>
+  <path d="M5 15h3v2H5z" fill="#a3c2ed"></path>
+  <path d="M12 9v2h7v2h-7v5.996l8-.004a1 1 0 001-1V9h-9zm3 7h-1v-1h1v1zm3 0h-1v-1h1v1z" fill="#3076d6"></path>
+  <path d="M14 15h1v1h-1zm3 0h1v1h-1z" fill="#75a4e4"></path>
+</svg>

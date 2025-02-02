@@ -3,7 +3,7 @@
   "name": "Google Cloud Console launcher",
   "description": "Quickly navigate to areas of the Google Cloud Console by project.",
   "developer_name": "Chet Luther (@cluther)",
-  "icon": "images/cloud_shell.png",
+  "icon": "images/supercloud.png",
   "options": {
     "query_debounce": 0.05
   },

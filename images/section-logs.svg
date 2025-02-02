@@ -1,0 +1,8 @@
+<svg data-icon-name="logsSectionIcon" viewBox="0 0 24 24" width="24" height="24" fill="#1967d2" fill-rule="evenodd">
+  <path d="M10 7h12V3H10z" fill="#4785db"></path>
+  <path d="M6 20h4v-2H6zm-2 0h2V8H4z" fill="#75a4e4"></path>
+  <path d="M10 21h12v-4H10z" fill="#4785db"></path>
+  <path d="M6 13h4v-2H6z" fill="#75a4e4"></path>
+  <path d="M10 14h12v-4H10z" fill="#4785db"></path>
+  <path d="M2 8h6V2H2z"></path>
+</svg>

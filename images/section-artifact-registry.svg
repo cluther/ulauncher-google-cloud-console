@@ -1,0 +1,17 @@
+<svg data-icon-name="artifactRegistrySectionIcon" viewBox="0 0 24 24" width="24" height="24" fill="#1967d2" fill-rule="evenodd">
+  <path d="M1 19.31l5 2.887V19.74l-3-1.73-2-1.154zM6 4.26V1.804L1 4.69v2.468l2-1.16z"></path>
+  <path d="M3 6.707v10.73l-2-.58V7.16z" fill="#4785db"></path>
+  <path d="M3 6v.706l-2 .452zm0 11.438v.572l-2-1.154z" fill="#75a4e4"></path>
+  <path d="M23 19.31l-5 2.887V19.74l3-1.73 2-1.154zM18 4.26V1.804l5 2.887v2.47L21 6z"></path>
+  <path d="M21 6.707v10.73l2-.58V7.16z" fill="#4785db"></path>
+  <path d="M21 6v.706l2 .452zm0 11.438v.572l2-1.154z" fill="#75a4e4"></path>
+  <path d="M11.985 5.187L9.037 6.833l2.948 1.647 2.947-1.647z"></path>
+  <path d="M12.382 12.347l2.87-1.675v-3.29l-2.87 1.68z" fill="#75a4e4"></path>
+  <path d="M11.645 9.062l-2.87-1.68v3.29l2.87 1.674z" fill="#4785db"></path>
+  <path d="M8.56 11.256l-2.82 1.646 2.82 1.647 2.82-1.65z"></path>
+  <path d="M8.822 18.416l2.87-1.675v-3.28l-2.87 1.68z" fill="#75a4e4"></path>
+  <path d="M8.3 15.13l-2.87-1.678v3.29l2.87 1.673z" fill="#4785db"></path>
+  <path d="M15.457 11.256l-2.82 1.646 2.82 1.647 2.82-1.65z"></path>
+  <path d="M15.718 18.416l2.87-1.675v-3.28l-2.87 1.68z" fill="#75a4e4"></path>
+  <path d="M15.196 15.13l-2.87-1.678v3.29l2.87 1.673z" fill="#4785db"></path>
+</svg>

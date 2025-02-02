@@ -19,112 +19,183 @@ from ulauncher.api.shared.item.ExtensionResultItem import ExtensionResultItem
 
 
 AREAS = {
-    "artifact registry repositories": {
-        "name": "Artifact Registry Repositories",
-        "icon": "container_registry",
-        "url": "https://console.cloud.google.com/artifacts",
+    "artifact registry": {
+        "name": "Artifact Registry",
+        "description": "Repositories – Artifact Registry",
+        "icon": "section-artifact-registry",
+        "url": "artifacts",
     },
     "bigtable instances": {
-        "name": "Bigtable Instances",
-        "icon": "bigtable",
-        "url": "https://console.cloud.google.com/bigtable/instances",
+        "name": "Bigtable",
+        "description": "Instances – Bigtable",
+        "icon": "section-bigtable",
+        "url": "bigtable/instances",
     },
     "billing": {
         "name": "Billing",
-        "icon": "billing",
-        "url": "https://console.cloud.google.com/billing",
+        "description": "Billing",
+        "icon": "section-billing",
+        "url": "billing",
+    },
+    "compute overview": {
+        "name": "Compute",
+        "description": "Overview – Compute",
+        "icon": "section-compute",
+        "url": "compute/overview",
     },
     "compute instances": {
-        "name": "Compute Instances",
-        "icon": "compute_engine",
-        "url": "https://console.cloud.google.com/compute/instances",
+        "name": "VM instances",
+        "description": "VM instances – Compute",
+        "icon": "instance",
+        "url": "compute/instances",
     },
     "dataflow jobs": {
-        "name": "Dataflow Jobs",
-        "icon": "dataflow",
-        "url": "https://console.cloud.google.com/dataflow/jobs",
+        "name": "Jobs",
+        "description": "Jobs – Dataflow",
+        "icon": "section-dataflow",
+        "url": "dataflow/jobs",
     },
     "datastore databases": {
-        "name": "Datastore Databases",
-        "icon": "datastore",
-        "url": "https://console.cloud.google.com/datastore/databases",
+        "name": "Datastore",
+        "description": "Databases – Datastore",
+        "icon": "section-datastore",
+        "url": "datastore/databases",
     },
-    "dns zones": {
-        "name": "DNS Zones",
-        "icon": "cloud_dns",
-        "url": "https://console.cloud.google.com/net-services/dns/zones",
+    "filestore instances": {
+        "name": "Filestore",
+        "description": "Instances – Filestore",
+        "icon": "section-filestore",
+        "url": "filestore/instances",
     },
     "firestore databases": {
-        "name": "Firestore Databases",
-        "icon": "firestore",
-        "url": "https://console.cloud.google.com/firestore/databases",
+        "name": "Firestore",
+        "description": "Databases – Firestore",
+        "icon": "section-firestore",
+        "url": "firestore/databases",
     },
     "iam": {
         "name": "IAM",
-        "icon": "identity_and_access_management",
-        "url": "https://console.cloud.google.com/iam-admin/iam",
+        "description": "IAM – IAM & Admin",
+        "icon": "section-iam-admin",
+        "url": "iam-admin/iam",
     },
     "iam service accounts": {
-        "name": "IAM Service Accounts",
-        "icon": "identity_and_access_management",
-        "url": "https://console.cloud.google.com/iam-admin/serviceaccounts",
+        "name": "Service Accounts",
+        "description": "Service accounts – IAM & Admin",
+        "icon": "service-accounts",
+        "url": "iam-admin/serviceaccounts",
     },
     "kubernetes clusters": {
-        "name": "Kubernetes Clusters",
-        "icon": "google_kubernetes_engine",
-        "url": "https://console.cloud.google.com/kubernetes/list",
+        "name": "Clusters",
+        "description": "Kubernetes clusters – Kubernetes Engine",
+        "icon": "section-kubernetes",
+        "url": "kubernetes/list/overview",
     },
-    "load balancers": {
-        "name": "Load Balancers",
-        "icon": "cloud_load_balancing",
-        "url": "https://console.cloud.google.com/net-services/loadbalancing/list/loadBalancers",
+    "monitoring overview": {
+        "name": "Monitoring",
+        "description": "Overview – Monitoring",
+        "icon": "section-monitoring",
+        "url": "monitoring",
     },
-    "logs": {
-        "name": "Logs",
-        "icon": "cloud_logging",
-        "url": "https://console.cloud.google.com/logs/query",
+    "monitoring dashboards": {
+        "name": "Dashboards",
+        "description": "Dashboards – Monitoring",
+        "icon": "dashboards",
+        "url": "monitoring/dashboards",
     },
-    "metrics explorer": {
-        "name": "Metrics Explorer",
-        "icon": "cloud_monitoring",
-        "url": "https://console.cloud.google.com/monitoring/metrics-explorer",
+    "monitoring metrics explorer": {
+        "name": "Metrics explorer",
+        "description": "Metrics explorer – Monitoring",
+        "icon": "metrics",
+        "url": "monitoring/metrics-explorer",
     },
-    "pubsub subscriptions": {
-        "name": "Pub/Sub Subscriptions",
-        "icon": "pubsub",
-        "url": "https://console.cloud.google.com/cloudpubsub/subscription",
+    "monitoring logs explorer": {
+        "name": "Logs explorer",
+        "description": "Logs explorer – Monitoring",
+        "icon": "section-logs",
+        "url": "logs/query",
+    },
+    "monitoring alerting": {
+        "name": "Alerting",
+        "description": "Alerting – Monitoring",
+        "icon": "alert",
+        "url": "logs/query",
+    },
+    "monitoring alerting incidents": {
+        "name": "Incidents",
+        "description": "Incidents – Monitoring",
+        "icon": "alert",
+        "url": "logs/query",
+    },
+    "network dns zones": {
+        "name": "DNS Zones",
+        "description": "DNS Zones – Network Services",
+        "icon": "dns",
+        "url": "net-services/dns/zones",
+    },
+    "network load balancing": {
+        "name": "Load Balancing",
+        "description": "Load Balancing – Network Services",
+        "icon": "section-load-balancing",
+        "url": "net-services/loadbalancing",
+    },
+    "pubsub": {
+        "name": "Pub/Sub",
+        "description": "Cloud Pub/Sub",
+        "icon": "section-cloudpubsub",
+        "url": "cloudpubsub",
     },
     "pubsub topics": {
-        "name": "Pub/Sub Topics",
-        "icon": "pubsub",
-        "url": "https://console.cloud.google.com/cloudpubsub/topic",
+        "name": "Topics",
+        "description": "Topics – Pub/Sub",
+        "icon": "topic",
+        "url": "cloudpubsub/topic",
     },
-    "pubsublite reservations": {
-        "name": "Pub/Sub Lite Reservations",
-        "icon": "pubsub",
-        "url": "https://console.cloud.google.com/cloudpubsub/liteReservation",
+    "pubsub subscriptions": {
+        "name": "Subscriptions",
+        "description": "Subscriptions – Pub/Sub",
+        "icon": "activity",
+        "url": "cloudpubsub/subscription",
     },
-    "pubsublite subscriptions": {
-        "name": "Pub/Sub Lite Subscriptions",
-        "icon": "pubsub",
-        "url": "https://console.cloud.google.com/cloudpubsub/liteSubscription",
+    "pubsub lite reservations": {
+        "name": "Lite Reservations",
+        "description": "Lite Reservations – Pub/Sub",
+        "icon": "service-directory",
+        "url": "cloudpubsub/liteReservation",
     },
-    "pubsublite topics": {
-        "name": "Pub/Sub Lite Topics",
-        "icon": "pubsub",
-        "url": "https://console.cloud.google.com/cloudpubsub/liteTopic",
+    "pubsub lite topics": {
+        "name": "Lite Topics",
+        "description": "Lite Topics – Pub/Sub",
+        "icon": "topic",
+        "url": "cloudpubsub/liteTopic",
+    },
+    "pubsub lite subscriptions": {
+        "name": "Lite Subscriptions",
+        "description": "Lite Subscriptions – Pub/Sub",
+        "icon": "activity",
+        "url": "cloudpubsub/liteSubscription",
     },
     "sql instances": {
-        "name": "SQL Instances",
-        "icon": "cloud_sql",
-        "url": "https://console.cloud.google.com/sql/instances",
+        "name": "Instances",
+        "description": "Instances – SQL",
+        "icon": "section-sql",
+        "url": "sql/instances",
+    },
+    "storage overview": {
+        "name": "Storage",
+        "description": "Overview – Storage",
+        "icon": "section-storage",
+        "url": "storage",
     },
     "storage buckets": {
         "name": "Storage Buckets",
-        "icon": "cloud_storage",
-        "url": "https://console.cloud.google.com/storage/browser",
+        "description": "Buckets – Storage",
+        "icon": "bucket",
+        "url": "storage/browser",
     },
 }
+
+BASE_URL = "https://console.cloud.google.com"
 
 logger = logging.getLogger(__name__)
 
@@ -193,13 +264,13 @@ class KeywordQueryEventListener(EventListener):
                 if arg2 and arg2 not in project and arg2 not in area_name:
                     continue
 
-                url = f"{area['url']}?project={project}"
+                url = f"{BASE_URL}/{area["url"]}?project={project}"
 
                 items.append(
                     ExtensionResultItem(
                         icon=f"images/{area["icon"]}.png",
-                        name=f"{area["name"]} for {project}",
-                        description=url,
+                        name=self.get_name(area, project),
+                        description=self.get_description(area, project),
                         on_enter=OpenUrlAction(url)))
 
         return RenderResultListAction(items[:9])
@@ -217,16 +288,27 @@ class KeywordQueryEventListener(EventListener):
             if arg and arg not in area_name:
                 continue
 
-            url = area["url"]
+            url = f"{BASE_URL}/{area["url"]}"
 
             items.append(
                 ExtensionResultItem(
                     icon=f"images/{area["icon"]}.png",
-                    name=f"{area["name"]}",
-                    description=url,
+                    name=self.get_name(area),
+                    description=self.get_description(area),
                     on_enter=OpenUrlAction(url)))
 
         return RenderResultListAction(items[:9])
+
+    def get_name(self, area: dict, project=None) -> str:
+        if project:
+            return f"{area["name"]} – {project}"
+        return area["name"]
+
+    def get_description(self, area: dict, project=None) -> str:
+        description = area.get("description", area["name"])
+        if project:
+            return f"{description} – {project}"
+        return description
 
 
 if __name__ == "__main__":
