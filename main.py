@@ -121,7 +121,7 @@ AREAS = {
         "icon": "alert",
         "url": "logs/query",
     },
-    "monitoring alerting incidents": {
+    "monitoring incidents": {
         "name": "Incidents",
         "description": "Incidents – Monitoring",
         "icon": "alert",
