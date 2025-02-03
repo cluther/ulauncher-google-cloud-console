@@ -18,7 +18,7 @@ to those that contain what you've typed.
 
 Project support is what differentiates this extension from the others described
 below. By entering a comma-separated list of projects in the extension's
-preferences, you web browser can be opened to the desired area within your
+preferences, your web browser can be opened to the desired area within your
 choice of project.
 
 For example, let's say you have added `xyz-dev,xyz-prod1,xyz-prod2` into the
