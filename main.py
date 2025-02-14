@@ -127,17 +127,23 @@ AREAS = {
         "icon": "alert",
         "url": "monitoring/alerting/incidents",
     },
+    "network load balancing": {
+        "name": "Load Balancing",
+        "description": "Load Balancing – Network Services",
+        "icon": "section-load-balancing",
+        "url": "net-services/loadbalancing",
+    },
     "network dns zones": {
         "name": "DNS Zones",
         "description": "DNS Zones – Network Services",
         "icon": "dns",
         "url": "net-services/dns/zones",
     },
-    "network load balancing": {
-        "name": "Load Balancing",
-        "description": "Load Balancing – Network Services",
-        "icon": "section-load-balancing",
-        "url": "net-services/loadbalancing",
+    "network nat": {
+        "name": "Cloud NAT",
+        "description": "Cloud NAT – Network Services",
+        "icon": "cloud-nat",
+        "url": "net-services/nat/list",
     },
     "pubsub": {
         "name": "Pub/Sub",

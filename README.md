@@ -55,8 +55,9 @@ Currently the supported services and areas are the following.
 - Monitoring – Logs explorer
 - Monitoring – Alerting
 - Monitoring – Incidents
-- Network Services – DNS Zones
 - Network Services – Load Balancing
+- Network Services – DNS Zones
+- Network Services - Cloud NAT
 - Pub/Sub – Overview
 - Pub/Sub – Topics
 - Pub/Sub – Subscriptions
