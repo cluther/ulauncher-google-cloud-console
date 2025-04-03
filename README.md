@@ -55,6 +55,8 @@ Currently the supported services and areas are the following.
 - Monitoring – Logs explorer
 - Monitoring – Alerting
 - Monitoring – Incidents
+- Network Security
+- Network Security - Cloud Armor policies
 - Network Services – Load Balancing
 - Network Services – DNS Zones
 - Network Services - Cloud NAT
@@ -67,6 +69,8 @@ Currently the supported services and areas are the following.
 - SQL – Instances
 - Storage – Overview
 - Storage – Buckets
+- Vertex AI - Dashboard
+- Vertex AI - Training - Custom jobs
 
 ## Similar Projects
 
@@ -127,6 +131,15 @@ register with `"vy`, then execute it in the SVG buffer with `:@v`.
 \ | %s/\(fill-\)\=opacity=\".5\d*\"/fill=\"#8cb3e8\"/ge
 \ | %s/\(fill-\)\=opacity=\".4\d*\"/fill=\"#a3c2ed\"/ge
 \ | %s/\(fill-\)\=opacity=\".3\d*\"/fill=\"#bad2f2\"/ge
+```
+
+This is the `vim` command for replacing greyscale colors.
+
+```vimrc
+%s/ aria-hidden=\"true\"//ge
+\ | %s/fill=\"#424242\"/fill=\"#4285f4\"/ge
+\ | %s/fill=\"#616161\"/fill=\"#669df6\"/ge
+\ | %s/fill=\"#757575\"/fill=\"#aecbfa\"/ge
 ```
 
 I then generate the PNG that Ulauncher uses using Inkscape as follows.

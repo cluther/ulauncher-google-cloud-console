@@ -127,6 +127,18 @@ AREAS = {
         "icon": "alert",
         "url": "monitoring/alerting/incidents",
     },
+    "network security": {
+        "name": "Network Security",
+        "description": "Network Security",
+        "icon": "section-network-security",
+        "url": "net-security",
+    },
+    "network security cloud armor policies": {
+        "name": "Cloud Armor policies",
+        "description": "Cloud Armor policies - Network Security",
+        "icon": "cloud-armor",
+        "url": "net-security/securitypolicies/list",
+    },
     "network load balancing": {
         "name": "Load Balancing",
         "description": "Load Balancing – Network Services",
@@ -198,6 +210,18 @@ AREAS = {
         "description": "Buckets – Storage",
         "icon": "bucket",
         "url": "storage/browser",
+    },
+    "vertex ai dashboard": {
+        "name": "Vertex AI",
+        "description": "Dashboard - Vertex AI",
+        "icon": "section-vertex-ai",
+        "url": "vertex-ai",
+    },
+    "vertex ai training custom jobs": {
+        "name": "Custom jobs",
+        "description": "Custom jobs - Training - Vertex AI",
+        "icon": "training",
+        "url": "vertex-ai/training/custom-jobs",
     },
 }
 
